@@ -1,0 +1,34 @@
+# Linux Fundamentals Lab
+
+## Description
+This repository documents my hands-on practice with basic Linux commands, including file navigation, directory management, file reading, searching for files, identifying hidden files, and checking system and disk information. These skills are essential for cybersecurity and system administration.
+
+## Objective
+The goal of this lab is to build a strong foundation in using the Linux command line to navigate systems, manage files, and gather system information.
+
+## Commands Practiced
+
+### File Navigation
+pwd
+ls
+ls -1
+ls -la
+cd foldername
+cd ..
+find ~ name
+
+### Read the file
+cat
+
+### Disk & System Info
+df -h
+du -sh
+cat /etc/os-release
+cat /proc/cpuinfo
+
+## What I Learned
+- How to navigate directories using `cd`, `ls`, and `pwd`
+- How to read and analyze files using `cat`, `less`, and `head`
+- How to locate files using the `find` command
+- How to identify hidden files and understand Linux file structure
+- How to check disk usage and system information
